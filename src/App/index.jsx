@@ -39,7 +39,7 @@ function App() {
         
     } catch(error){
       console.error(error)
-      setFormalText("Algo deu errado, tente novamente")
+      setFormalText("GREVE: Formalizador sem créditos na OpenAI.")
     }
     setDisableButton(false)
   }
